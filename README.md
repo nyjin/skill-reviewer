@@ -40,7 +40,14 @@ Evaluates Claude Code custom slash commands on **structural correctness** (CF1-C
 
 ## Installation
 
-### Option 1: Install Both Skills
+### Option 1: Install from Smithery
+
+Install directly from [Smithery](https://smithery.ai):
+
+- [skill-reviewer](https://smithery.ai/skills/nyjin/skill-reviewer)
+- [command-reviewer](https://smithery.ai/skills/nyjin/command-reviewer)
+
+### Option 2: Install Both Skills
 
 ```bash
 # Clone this repository
@@ -50,7 +57,7 @@ git clone https://github.com/nyjin/skill-reviewer.git
 cp -r skill-reviewer/skills/* ~/.claude/skills/
 ```
 
-### Option 2: Install Individual Skills
+### Option 3: Install Individual Skills
 
 ```bash
 # Install only skill-reviewer

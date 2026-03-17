@@ -1,6 +1,6 @@
 ---
 name: command-reviewer
-description: "Evaluates, improves, and creates Claude Code custom slash commands (.claude/commands/*.md) against best practices. Mode 1-2: Review existing commands with structural validation (frontmatter, allowed-tools) and quality review (token efficiency, security scoping, freedom calibration). Mode 3: Create new commands following all CF/CP checks. Use when the user wants to create, review, validate, audit, lint, or improve commands — or when they need help deciding between command vs skill."
+description: "Linter for Claude Code slash commands. Validates .claude/commands/*.md with 22-point checklist: structural (frontmatter, allowed-tools) + quality (security scoping, inline context, freedom calibration). Modes: Self-review, External audit, Create. Use when creating or reviewing slash commands, auditing allowed-tools security, or deciding between command vs skill."
 ---
 
 # Command Reviewer

@@ -1,0 +1,32 @@
+{
+  "name": "skill-reviewer",
+  "version": "1.0.0",
+  "displayName": "Skill & Command Reviewer",
+  "description": "Professional tools for evaluating, improving, and creating Claude Code skills and custom commands against Anthropic's official best practices",
+  "author": "nyjin",
+  "repository": "https://github.com/nyjin/skill-reviewer",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "skill-reviewer",
+      "path": "skills/skill-reviewer",
+      "description": "Evaluates, improves, and creates Claude Code skills against Anthropic's official best practices. Mode 1-2: Review existing skills with structural validation (YAML, line count, paths) and quality review (WHY explanations, freedom calibration, token efficiency, feedback loops). Mode 3: Auto-PR improvements. Mode 4: Create new skills following all F/P checks."
+    },
+    {
+      "name": "command-reviewer",
+      "path": "skills/command-reviewer",
+      "description": "Evaluates, improves, and creates Claude Code custom slash commands (.claude/commands/*.md) against best practices. Mode 1-2: Review existing commands with structural validation (frontmatter, allowed-tools) and quality review (token efficiency, security scoping, freedom calibration). Mode 3: Create new commands following all CF/CP checks."
+    }
+  ],
+  "tags": [
+    "code-quality",
+    "development-tools",
+    "validation",
+    "best-practices",
+    "skills",
+    "commands"
+  ],
+  "compatibility": {
+    "claudeCodeVersion": ">=1.0.0"
+  }
+}

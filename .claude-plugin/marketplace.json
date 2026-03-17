@@ -10,12 +10,12 @@
     {
       "name": "skill-reviewer",
       "path": "skills/skill-reviewer",
-      "description": "Evaluates, improves, and creates Claude Code skills against Anthropic's official best practices. Mode 1-2: Review existing skills with structural validation (YAML, line count, paths) and quality review (WHY explanations, freedom calibration, token efficiency, feedback loops). Mode 3: Auto-PR improvements. Mode 4: Create new skills following all F/P checks."
+      "description": "Lint, validate, and audit Claude Code skills (SKILL.md). Quality checker with 24-point checklist based on Anthropic's best practices: structural validation (YAML frontmatter, paths, line count) + principle analysis (WHY explanations, freedom calibration, token efficiency). Modes: review, audit, auto-PR, create. Use for skill linting, third-party skill security review, pre-publish validation, or creating new agent skills from scratch."
     },
     {
       "name": "command-reviewer",
       "path": "skills/command-reviewer",
-      "description": "Evaluates, improves, and creates Claude Code custom slash commands (.claude/commands/*.md) against best practices. Mode 1-2: Review existing commands with structural validation (frontmatter, allowed-tools) and quality review (token efficiency, security scoping, freedom calibration). Mode 3: Create new commands following all CF/CP checks."
+      "description": "Lint, validate, and audit Claude Code custom slash commands (.claude/commands/*.md). Quality checker with 22-point checklist: structural validation (YAML frontmatter, allowed-tools) + principle analysis (security scoping, inline context, freedom calibration). Modes: review, audit, create. Use for command linting, allowed-tools security audit, pre-publish validation, or deciding between command vs skill format."
     }
   ],
   "tags": [

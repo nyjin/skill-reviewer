@@ -1,6 +1,6 @@
 ---
 name: skill-reviewer
-description: "ESLint for Claude Code skills. Validates against Anthropic's best practices with 24-point checklist: structural (YAML, paths, line count) + quality (WHY explanations, freedom calibration, token efficiency). Modes: Self-review, External audit, Auto-PR, Create. Use when reviewing third-party skills before installation, validating your skills before publishing, or creating new skills from scratch."
+description: "Linter for Claude Code skills. Validates against Anthropic's best practices with 24-point checklist: structural (YAML, paths, line count) + quality (WHY explanations, freedom calibration, token efficiency). Modes: Self-review, External audit, Auto-PR, Create. Use when reviewing third-party skills before installation, validating your skills before publishing, or creating new skills from scratch."
 ---
 
 # Skill Reviewer

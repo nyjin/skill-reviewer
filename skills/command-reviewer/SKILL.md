@@ -392,4 +392,4 @@ Commands should encode workflows that are **frequently repeated** and **complex 
 - `references/evaluation-checklist.md` — Full checklist with scoring rubric and severity guide
 - `references/pull-request-guide.md` — Command-specific PR best practices
 - `references/writer.md` — Command creation workflow for Mode 3 (Create)
-- Claude Code docs: https://code.claude.com/docs/en/slash-commands (URL current as of 2026-03)
+- Claude Code docs: https://code.claude.com/docs/en/slash-commands

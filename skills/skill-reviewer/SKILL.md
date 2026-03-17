@@ -393,4 +393,4 @@ For scanned PDFs requiring OCR, use pdf2image + pytesseract instead.
 - `references/evaluation-checklist.md` — Full checklist with scoring rubric and severity guide
 - `references/pull-request-guide.md` — Skill-specific PR best practices for Mode 3 (Auto-PR)
 - `references/writer.md` — Skill creation workflow for Mode 4 (Create)
-- Anthropic official: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices (URL current as of 2026-03)
+- Anthropic official: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices

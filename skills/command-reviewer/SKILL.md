@@ -1,6 +1,6 @@
 ---
 name: command-reviewer
-description: "Lint, validate, and audit Claude Code custom slash commands (.claude/commands/*.md). Quality checker with 22-point checklist: structural validation (YAML frontmatter, allowed-tools) + principle analysis (security scoping, inline context, freedom calibration). Modes: review, audit, create. Use for command linting, allowed-tools security audit, pre-publish validation, or deciding between command vs skill format."
+description: "Quality checker for Claude Code custom slash commands (.claude/commands/*.md) with 22-point checklist. Validates structural correctness (YAML frontmatter, allowed-tools) and principle quality (security scoping, inline context, freedom calibration). Use for command linting, review, security audit, creation, or command-vs-skill decisions."
 ---
 
 # Command Reviewer

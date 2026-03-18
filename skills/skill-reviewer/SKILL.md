@@ -1,6 +1,6 @@
 ---
 name: skill-reviewer
-description: "Lint, validate, and audit Claude Code skills (SKILL.md). Quality checker with 24-point checklist based on Anthropic's best practices: structural validation (YAML frontmatter, paths, line count) + principle analysis (WHY explanations, freedom calibration, token efficiency). Modes: review, audit, auto-PR, create. Use for skill linting, third-party skill security review, pre-publish validation, or creating new agent skills from scratch."
+description: "Quality checker for Claude Code skills (SKILL.md) with 24-point checklist based on Anthropic's best practices. Validates structural correctness (YAML frontmatter, paths, line count) and principle quality (WHY explanations, freedom calibration, token efficiency). Use for skill review, linting, security audit, auto-PR improvements, or creating new agent skills."
 ---
 
 # Skill Reviewer
